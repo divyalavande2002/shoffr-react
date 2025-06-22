@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/shoffr-react/static/css/main.174a9729.css",
+    "main.js": "/shoffr-react/static/js/main.11aca53b.js",
+    "static/js/453.ccd05062.chunk.js": "/shoffr-react/static/js/453.ccd05062.chunk.js",
+    "static/media/herobg.png": "/shoffr-react/static/media/herobg.6ec60dbdcf22ad1ce2aa.png",
+    "static/media/shoffricon.png": "/shoffr-react/static/media/shoffricon.eb542b38567de4c51840.png",
+    "static/media/bicon.png": "/shoffr-react/static/media/bicon.fd1bfdd94a0fd4ab9e04.png",
+    "static/media/gettheapp.png": "/shoffr-react/static/media/gettheapp.8f79dcab66fa615b848b.png",
+    "static/media/avatar1.png": "/shoffr-react/static/media/avatar1.992870674c40788e872e.png",
+    "static/media/avatar3.png": "/shoffr-react/static/media/avatar3.be8261f63c644d39e65f.png",
+    "static/media/avatar2.png": "/shoffr-react/static/media/avatar2.8524b17a17228b23f2ee.png",
+    "static/media/avatar4.png": "/shoffr-react/static/media/avatar4.b6ce54daca33236b42d4.png",
+    "static/media/eventsbg.jpg": "/shoffr-react/static/media/eventsbg.bab38946a7e17b7fb4f3.jpg",
+    "static/media/shoffrherologo.svg": "/shoffr-react/static/media/shoffrherologo.de12d940c5a57c2f9f8bb45efdc92673.svg",
+    "static/media/googleplay.svg": "/shoffr-react/static/media/googleplay.b7ccceb649ada7750d3a1cb856a07894.svg",
+    "static/media/applestore.svg": "/shoffr-react/static/media/applestore.413a2b022bf5121452a204ff7bf87bb4.svg",
+    "static/media/instagram.svg": "/shoffr-react/static/media/instagram.27989dd45345fa0b6d008094b123df7c.svg",
+    "static/media/linkedIn.svg": "/shoffr-react/static/media/linkedIn.ffb6b67ae251d67533fd4bc2e084dad7.svg",
+    "static/media/x.svg": "/shoffr-react/static/media/x.acc7421822f870b6dec049619df78d8a.svg",
+    "index.html": "/shoffr-react/index.html",
+    "main.174a9729.css.map": "/shoffr-react/static/css/main.174a9729.css.map",
+    "main.11aca53b.js.map": "/shoffr-react/static/js/main.11aca53b.js.map",
+    "453.ccd05062.chunk.js.map": "/shoffr-react/static/js/453.ccd05062.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.174a9729.css",
+    "static/js/main.11aca53b.js"
+  ]
+}
