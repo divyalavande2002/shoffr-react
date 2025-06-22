@@ -1,0 +1,98 @@
+.download-app {
+  padding: 80px 40px;
+  background-color: #000;
+  border: 1px solid #333;
+  border-radius: 16px;
+  margin: 60px auto;
+  max-width: 1200px;
+}
+
+.download-app-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.download-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 32px;
+  min-width: 280px;
+}
+
+.download-left h2 {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: 600;
+  margin: 0;
+}
+
+.app-icon {
+  width: 64px;
+  height: 64px;
+  background: #f2e3b5;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.app-buttons {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.store-btn {
+  padding: 14px 24px;
+  border: 1px solid #fff;
+  border-radius: 9999px;
+  background: transparent;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.3s ease;
+}
+
+.store-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.download-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.phone-img {
+  max-width: 360px;
+  height: auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .download-app-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .download-left h2 {
+    font-size: 2rem;
+  }
+
+  .phone-img {
+    max-width: 260px;
+  }
+
+  .download-left {
+    align-items: center;
+  }
+}

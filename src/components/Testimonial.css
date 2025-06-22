@@ -1,0 +1,104 @@
+.love-section {
+  background-color: #000;
+  color: #ccc;
+  padding: 80px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.love-heading {
+  color: #e6c179;
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.love-cards {
+  display: flex;
+  flex-wrap: nowrap; /* horizontal scroll */
+  gap: 30px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  animation: scroll-horizontal 30s linear infinite; /* ← faster (was 60s) */
+  width: max-content;
+}
+.love-cards:hover {
+  animation-play-state: paused;
+}
+
+.love-cards-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+@keyframes scroll-horizontal {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+
+
+.love-card {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  padding: 20px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+.love-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  gap: 12px;
+  justify-content: space-between;
+}
+
+.guest-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.guest-info {
+  flex: 1;
+  text-align: left;
+}
+
+.guest-info h4 {
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 2px;
+}
+
+.guest-info span {
+  font-size: 0.85rem;
+  color: #aaa;
+}
+
+.x-icon {
+  color: #fff;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.guest-text {
+  font-size: 0.9rem;
+  color: #ddd;
+  line-height: 1.5;
+  margin-bottom: 16px;
+  white-space: pre-line;
+}
+
+.guest-image {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
