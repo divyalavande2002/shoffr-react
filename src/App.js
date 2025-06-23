@@ -11,7 +11,7 @@ import Login from './components/Login';
 
 function App() {
   return (
-    <Router basename="/shoffr-react">
+    <Router >
       <Routes>
         <Route
           path="/"
